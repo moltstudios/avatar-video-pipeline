@@ -4,7 +4,9 @@ Autonomous AI video production system that generates character-consistent, lip-s
 
 This is not a proof of concept. It produces real videos for real social media channels.
 
-> **See it in action** — Full case study with sample output at the [Results](#results) section below. Real product, real AI character, real video output.
+https://github.com/user-attachments/assets/bcf4754c-2571-4574-804a-e583b1f64e74
+
+> **How it works** — See the [Pipeline Architecture](#pipeline-architecture) section below. Full case study with sample output in [Results](#results).
 
 ## Pipeline Architecture
 
@@ -185,6 +187,8 @@ End-to-end pipeline producing a user-generated content (UGC) style product demon
 </table>
 
 The final video features the character speaking to camera with the product, generating a natural UGC-style product endorsement. The entire sequence — image generation, TTS voice, avatar animation, SFX mixing — runs on custom cloud GPU infrastructure (Modal A100-80GB) at approximately $0.02 per scene.
+
+https://github.com/user-attachments/assets/bcf4754c-2571-4574-804a-e583b1f64e74
 
 ### Production Metrics
 
