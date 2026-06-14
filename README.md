@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/bcf4754c-2571-4574-804a-e583b1f64e74
 
 Script Engine -> Character Lock -> Scene Refs -> TTS Voice -> Avatar Animation -> Assembly -> SFX + Music -> Final Render
 
-**End-to-end time:** ~30-45 min per video, ~4 hours for a batch of 6  
+**End-to-end time:** ~5-8 min per video  
 **Cost:** ~$0.02 per scene (Modal A100-80GB)
 
 ## The 5 Stages
@@ -73,7 +73,7 @@ The core engine. A 22B-parameter audio-to-video model deployed on Modal (A100-80
 - No walking/locomotion (upper body only)
 - No physical interaction between characters (talking only)
 - No exact background preservation (regenerates full frame)
-- No real-time generation (~10-20 min per 30s clip)
+- GPU render: ~2-3 min per scene on A100 (not real-time, but fast enough for production)
 
 **Deployment:**
 - App: `longcat-avatar` on Modal Labs
